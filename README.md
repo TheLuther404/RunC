@@ -25,7 +25,7 @@ sudo make install
 ### Homebrew :
 
 ```
-brew install theluther404/runc/<formula>
+brew install theluther404/runc/runc
 ```
 
 Or `brew tap theluther404/runc` and then `brew install <formula>`.
