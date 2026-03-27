@@ -9,7 +9,7 @@ Compile and run C files instantly from the command line.
 ### From source
 
 ```sh
-git clone https://github.com/YOUR_USER/runc.git
+git clone https://github.com/TheLuther404/runc.git
 cd runc
 chmod +x install.sh
 ./install.sh
@@ -22,10 +22,19 @@ make
 sudo make install
 ```
 
-### Homebrew (coming soon)
+### Homebrew :
 
-```sh
-brew install runc
+```
+brew install theluther404/runc/<formula>
+```
+
+Or `brew tap theluther404/runc` and then `brew install <formula>`.
+
+Or, in a `brew bundle` `Brewfile`:
+
+```ruby
+tap "theluther404/runc"
+brew "<formula>"
 ```
 
 ### APT (coming soon)
